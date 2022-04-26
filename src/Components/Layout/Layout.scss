@@ -1,0 +1,83 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    
+    .links-container {
+        display: flex;
+        justify-content: space-around;
+        width: 25%;
+    }
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    .core-content {
+        width: 50%;
+        margin-right: 25%;
+
+        .hero {
+            h1 {
+                font-size: 0.85em;
+            }
+
+            h2 {
+                font-size: 3.5em;
+                margin: 0;
+            }
+
+            h3 {
+                font-size: 2.5em;
+                margin: 0;
+            }
+
+            p {
+                width: 50%;
+            }
+        }
+
+        .about {
+            p {
+                width: 50%;
+            }
+
+            .about-content {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: auto;
+                grid-template-areas: 
+                    "description photo"
+                    "icons icons";
+
+                .about-bio {
+                    grid-area: description;
+                }
+
+                .photo {
+                    grid-area: photo;
+                }
+
+                .skills {
+                    grid-area: icons;
+                }
+            }
+        }
+
+        .projects {
+            .project-list {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: auto;
+            }
+        }
+    }
+
+    .social-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

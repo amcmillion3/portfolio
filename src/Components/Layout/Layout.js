@@ -1,5 +1,6 @@
 import React from "react";
 import Projects from "../Projects";
+import './Layout.scss';
 
 function Layout(props) {
 
@@ -17,19 +18,19 @@ function Layout(props) {
             <div className="main-container">
                 <div className="core-content">
                     <section className="hero">
-                        <div>
+                        <div className="hero-1">
                             <h1>Hi, I am</h1>
                         </div>
-                        <div>
+                        <div className="hero-2">
                             <h2>Andrew McMillion</h2>
                         </div>
-                        <div>
+                        <div className="hero-3">
                             <h3>I am a Web Developer</h3>
                         </div>
-                        <div>
+                        <div className="hero-4">
                             <p>I am a Front-End Web Developer who strives to build exceptional websites. I am currently freelancing as I pursue a career as a professional developer.</p>
                         </div>
-                        <div>
+                        <div className="hero-5">
                             <p>If you are in search of a competent, hard-working developer for any ongoing projects or to join your team please contact me at amcmillion3@gmail.com</p>
                         </div>
                     </section>
@@ -50,7 +51,7 @@ function Layout(props) {
                             </div>
                         </div>
                     </section>
-                    <section>
+                    <section className="projects">
                         <h2>Projects</h2>
                         <Projects data={ props.data }/>
                     </section>
