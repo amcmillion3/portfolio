@@ -3,6 +3,7 @@ $light-blue: #b4f9f8;
 $blue: #7aa2f7;
 $gray: #9699a3;
 $lavender: #c0caf5;
+$dark-purple: #565f89;
 
 
 nav {
@@ -23,7 +24,7 @@ nav {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    color: $gray;
+    color: $lavender;
 
     .core-content {
         width: 50%;
@@ -40,7 +41,7 @@ nav {
             h2 {
                 font-size: 5.5em;
                 margin: 0;
-                color: $lavender;
+                color: $dark-purple;
             }
 
             h3 {
