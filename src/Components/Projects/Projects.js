@@ -15,7 +15,7 @@ function Projects(props) {
     };
 
     return(
-        <div className="project-list">
+        <div className="grid grid-cols-3 grid-rows-2">
             {renderProjectsList()}
         </div>
     )
