@@ -2,18 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Inter";
+  src: url(./assets/fonts/Inter/static/Inter-Black.ttf);
+  src: url(./assets/fonts/Inter/static/Inter-Bold.ttf);
+  src: url(./assets/fonts/Inter/static/Inter-ExtraBold.ttf);
+  src: url(./assets/fonts/Inter/static/Inter-ExtraLight.ttf);
+  src: url(./assets/fonts/Inter/static/Inter-Light.ttf);
+  src: url(./assets/fonts/Inter/static/Inter-Medium.ttf);
+  src: url(./assets/fonts/Inter/static/Inter-Regular.ttf);
+  src: url(./assets/fonts/Inter/static/Inter-SemiBold.ttf);
+  src: url(./assets/fonts/Inter/static/Inter-Thin.ttf);
 }
 
 body {

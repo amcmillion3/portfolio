@@ -23,10 +23,10 @@ function Layout(props) {
                             <h1 className="text-3xl text-tokyo-cyan m-0">Hi, I am</h1>
                         </div>
                         <div>
-                            <h2 className="text-8xl text-tokyo-dark-purple">Andrew McMillion</h2>
+                            <h2 className="text-8xl text-tokyo-dark-purple font-serif">Andrew McMillion</h2>
                         </div>
                         <div>
-                            <h3 className="text-8xl m-0">I am a Web Developer</h3>
+                            <h3 className="text-6xl m-0 font-serif">I am a Web Developer</h3>
                         </div>
                         <div>
                             <p className="text-xl w-2/3 leading-8 mt-2">I am a Front-End Web Developer who strives to build exceptional websites. I am currently freelancing as I pursue a career as a professional developer.</p>

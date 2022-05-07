@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -11,7 +13,11 @@ module.exports = {
       'tokyo-lavender': '#c0caf5',
       'tokyo-dark-purple': '#565f89',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['Inter', ...defaultTheme.fontFamily.sans],
+      },
+    },
   },
   plugins: [],
 }

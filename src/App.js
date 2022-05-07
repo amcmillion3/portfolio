@@ -6,7 +6,7 @@ import ProjectDetail from './Components/ProjectDetail';
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-base-background">
       <Router>
         <Routes>
           <Route path='/' element={<Layout data={ data }/>} />
