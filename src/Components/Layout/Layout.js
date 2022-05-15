@@ -15,7 +15,7 @@ function Layout(props) {
             </nav>
             <div className="flex flex-col lg:justify-between lg:flex-row-reverse text-tokyo-lavender">
                 <div className="lg:w-1/2 lg:mr-[25%]">
-                    <section className="mt-10 ml-10 mr-10 lg:mt-20">
+                    <section className="mt-20 ml-10 mr-10">
                         <div>
                             <h1 className="text-2xl lg:text-3xl text-tokyo-cyan lg:m-0">Hi, I am</h1>
                         </div>

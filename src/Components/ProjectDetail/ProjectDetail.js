@@ -23,11 +23,11 @@ export default function ProjectDetail(props) {
 
     return (
         <div>
-            <div>Icon</div>
+            <div className="text-5xl m-4 text-tokyo-lavender">A</div>
             {renderProjectDetail()}
             <div>
-            <Link to={`/`}>
-                <button>Go Back</button>
+            <Link className="text-tokyo-lavender" to={`/`}>
+                <button className=" text-xl border-2 rounded border-tokyo-lavender m-10 p-2">Go Back</button>
             </Link>
             </div>
         </div>
