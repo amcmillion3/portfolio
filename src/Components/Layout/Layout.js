@@ -70,17 +70,18 @@ function Layout(props) {
                     <section className="mt-20 ml-10 mr-10">
                         <h2 className="text-4xl text-tokyo-cyan">Contact Me</h2>
                         <form>
-                            <ul>
+                            <ul className="mt-10">
                                 <li>
-                                    <input type="text" name="name" placeholder="Name" required />
+                                    <input className="rounded p-2 w-full" type="text" name="name" placeholder="Name" required />
                                 </li>
                                 <li>
-                                    <input type="email" name="email" placeholder="Email" required />
+                                    <input className="rounded p-2 mt-2 w-full" type="email" name="email" placeholder="Email" required />
                                 </li>
                                 <li>
-                                    <textarea name="message" placeholder="Message" required ></textarea>
+                                    <textarea className="rounded p-2 mt-2 w-full" name="message" placeholder="Message" required ></textarea>
                                 </li>
                             </ul>
+                            <button className="text-xl text-tokyo-cyan border-2 rounded border-tokyo-cyan p-2 mt-2" type="submit">Submit</button>
                         </form>
                     </section>
                 </div>
