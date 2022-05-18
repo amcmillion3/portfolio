@@ -8,9 +8,9 @@ function Layout(props) {
             <nav className="flex justify-between lg:m-4 lg:text-xl text-tokyo-cyan">
                 <div className="text-5xl m-4">A</div>
                 <div className="text-xl flex flex-col m-4 lg:flex-row lg:justify-around lg:w-1/4">
-                    <div>About</div>
-                    <div>Projects</div>
-                    <div>Contact</div>
+                    <div><a href="#about">About</a></div>
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#contact">Contact</a></div>
                 </div>
             </nav>
             <div className="flex flex-col lg:justify-between lg:flex-row-reverse text-tokyo-lavender">
@@ -33,7 +33,7 @@ function Layout(props) {
                         </div>
                     </section>
                     <section className="mt-60 ml-10 mr-10 lg:mt-80">
-                        <h2 className="text-4xl text-tokyo-cyan">About Me</h2>
+                        <h2 className="text-4xl text-tokyo-cyan" id="about">About Me</h2>
                         <div className="mt-10 lg:grid lg:grid-cols-2 lg:row-auto">
                             <div>
                                 <p className="text-xl lg:w-full lg:leading-8 lg:mt-2">Hello! My name is Andrew and I am a web developer. I studied Mathematics at the University of South Florida and first became interested in programming when I took a course on programming for mathematics that was focused on developing algorithms to solve mathematical problems. Now that interest has grown to spending the vast majority of my time learning about and building things for the internet.</p>
@@ -63,11 +63,11 @@ function Layout(props) {
                             </div>
                         </div>
                     </section>
-                    <section className="mt-20 ml-10 mr-10">
+                    <section className="mt-20 ml-10 mr-10" id="projects">
                         <h2 className="text-4xl text-tokyo-cyan">Projects</h2>
                         <Projects data={ props.data }/>
                     </section>
-                    <section className="mt-20 ml-10 mr-10">
+                    <section className="mt-20 ml-10 mr-10" id="contact">
                         <h2 className="text-4xl text-tokyo-cyan">Contact Me</h2>
                         <form>
                             <ul className="mt-10">
