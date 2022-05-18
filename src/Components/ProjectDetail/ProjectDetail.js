@@ -27,7 +27,7 @@ export default function ProjectDetail(props) {
             {renderProjectDetail()}
             <div>
             <Link className="text-tokyo-lavender" to={`/`}>
-                <button className=" text-xl border-2 rounded border-tokyo-lavender m-10 p-2">Go Back</button>
+                <button className="text-xl border-2 rounded border-tokyo-lavender m-10 p-2">Go Back</button>
             </Link>
             </div>
         </div>

@@ -4,13 +4,13 @@ export default function ProjectDetailLayout(props) {
     return(
         <div className="m-10 text-tokyo-lavender" key={props.title}>
             <header>
-                <h1 className="text-5xl">{props.title}</h1>
+                <h1 className="text-3xl lg:text-5xl">{props.title}</h1>
             </header>
-            <div className="flex mt-10">
-                <div className="w-1/2">
+            <div className="flex flex-col lg:flex-row lg:mt-10">
+                <div className="mt-10 lg:w-1/2">
                     <img src={`${props.video}`} alt={`video of ${props.title}`} />
                 </div>
-                <div className="w-1/2 pl-10 pr-64">
+                <div className="text-2xl lg:w-1/2 lg:pl-10 lg:pr-64">
                     <ul>
                         <li className="mt-5">{props.description}</li>
                         <li className="mt-10">{props.learning}</li>
