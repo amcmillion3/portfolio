@@ -1,18 +1,12 @@
 import React from "react";
 import Projects from "../Projects";
+import Nav from "../Nav";
 
 function Layout(props) {
 
     return (
         <div>
-            <nav className="flex justify-between lg:m-4 lg:text-xl text-tokyo-cyan">
-                <div className="text-5xl m-4">A</div>
-                <div className="text-xl flex flex-col m-4 lg:flex-row lg:justify-around lg:w-1/4">
-                    <div><a href="#about">About</a></div>
-                    <div><a href="#projects">Projects</a></div>
-                    <div><a href="#contact">Contact</a></div>
-                </div>
-            </nav>
+            <Nav/>
             <div className="flex flex-col lg:justify-between lg:flex-row-reverse text-tokyo-lavender">
                 <div className="lg:w-1/2 lg:mr-[25%]">
                     <section className="mt-20 ml-10 mr-10">
