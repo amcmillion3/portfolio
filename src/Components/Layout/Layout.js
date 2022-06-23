@@ -63,16 +63,16 @@ function Layout(props) {
                     </section>
                     <section className="mt-20 ml-10 mr-10" id="contact">
                         <h2 className="text-4xl text-tokyo-cyan">Contact Me</h2>
-                        <form>
+                        <form action="https://formsubmit.co/0c75666bfff8977270a32b804824f26f" method="POST">
                             <ul className="mt-10">
                                 <li>
-                                    <input className="rounded p-2 w-full" type="text" name="name" placeholder="Name" required />
+                                    <input className="rounded p-2 w-full text-[#040324] text-lg font-black" type="text" name="name" placeholder="Name" required />
                                 </li>
                                 <li>
-                                    <input className="rounded p-2 mt-2 w-full" type="email" name="email" placeholder="Email" required />
+                                    <input className="rounded p-2 mt-2 w-full text-[#040324] text-lg font-black" type="email" name="email" placeholder="Email" required />
                                 </li>
                                 <li>
-                                    <textarea className="rounded p-2 mt-2 w-full" name="message" placeholder="Message" required ></textarea>
+                                    <textarea className="rounded p-2 mt-2 w-full h-48 text-[#040324] text-lg font-black" name="message" placeholder="Message" required ></textarea>
                                 </li>
                             </ul>
                             <button className="text-xl text-tokyo-cyan border-2 rounded border-tokyo-cyan p-2 mt-2" type="submit">Submit</button>
