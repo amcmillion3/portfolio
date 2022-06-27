@@ -12,7 +12,6 @@ export default function ProjectDetail(props) {
             title = {item.title}
             description = {item.description}
             learning = {item.learning}
-            skills = {item.skills}
             live = {item.live}
             github = {item.github}
             video = {item.video}

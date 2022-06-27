@@ -31,8 +31,8 @@ function Layout(props) {
                         <div className="mt-10 lg:grid lg:grid-cols-2 lg:row-auto">
                             <div>
                                 <p className="text-xl lg:w-full lg:leading-8 lg:mt-2">Hello! My name is Andrew and I am a web developer. I studied Mathematics at the University of South Florida and first became interested in programming when I took a course on programming for mathematics that was focused on developing algorithms to solve mathematical problems. Now that interest has grown to spending the vast majority of my time learning about and building things for the internet.</p>
-                                <p className="text-xl mt-10 lg:w-full lg:leading-8 lg:mt-2">My current focus is building large full stack applications in order to grow and hone my skills. I am also reaching out into my community and working to improve local businesses by building for them, fully functional websites that will allow them to attract more customers and grow their businesses.</p>
-                                <p className="text-xl mt-10 lg:w-full lg:leading-8 lg:mt-2">I am a voracious learner and I love tackling difficult projects that expand my knowledge and challenge me intellectually.</p>
+                                <p className="text-xl mt-10 lg:w-full lg:leading-8 lg:mt-6">My current focus is building large full stack applications in order to grow and hone my skills. I am also reaching out into my community and working to improve local businesses by building for them, fully functional websites that will allow them to attract more customers and grow their businesses.</p>
+                                <p className="text-xl mt-10 lg:w-full lg:leading-8 lg:mt-6">I am a voracious learner and I love tackling difficult projects that expand my knowledge and challenge me intellectually.</p>
                             </div>
                             <div>
                                 <div className="m-5 lg:m-10 lg:mt-40">
@@ -40,7 +40,7 @@ function Layout(props) {
                                 </div>
                             </div>
                             <div className="lg:col-span-2">
-                                <p className="text-xl lg:w-full lg:leading-8 lg:mt-2">Here are a few of the technologies that I use:</p>
+                                <p className="text-xl lg:w-full lg:leading-8 lg:mt-6">Here are a few of the technologies that I use:</p>
                                 <div className="flex flex-wrap justify-around mt-4 w-full">
                                     <img align="left" alt="Visual Studio Code" width="50em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
                                     <img align="left" alt="HTML5" width="50em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />

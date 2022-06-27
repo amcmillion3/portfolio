@@ -14,7 +14,6 @@ export default function ProjectDetailLayout(props) {
                     <ul>
                         <li className="mt-5">{props.description}</li>
                         <li className="mt-10">{props.learning}</li>
-                        <li className="mt-10">{props.skills}</li>
                     </ul>
                     <div className="flex justify-around mt-10 w-full">
                         <a href={props.live} className="border-2 rounded border-tokyo-lavender p-2">Live Demo</a>
