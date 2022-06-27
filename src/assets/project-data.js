@@ -16,8 +16,8 @@ export const projectData = [
         description: "La Casa Catracha is a Honduran restaurant in Tampa, FL serving up homemade authentic Honduran food to the hungry locals in South Tampa.",
         learning: "Key Learning info inserted here.",
         skills: "logo svgs here",
-        live: "link to the live project",
-        github: "Github Link",
+        live: "https://la-casa-catracha.netlify.app/",
+        github: "https://github.com/amcmillion3/la-casa-catracha",
         image: "project image",
         video: "project demonstration video"
     },
@@ -27,8 +27,8 @@ export const projectData = [
         description: "A fun memory card game in which the objective is to try to continuously select a unique card as many times in a row as possible.",
         learning: "This was a project I built with React to become comfortable with Functional Components and Hooks. How state functions and how data is shared in a React app was confusing at first but once I read through the official docs and played with the sample code in the React docs I figured it out and made it work.",
         skills: "logo svgs here",
-        live: "link to the live project",
-        github: "Github Link",
+        live: "https://naruto-memory-card-game.netlify.app/",
+        github: "https://github.com/amcmillion3/memory-card-game",
         image: "project image",
         video: "project demonstration video"
     },
