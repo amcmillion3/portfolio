@@ -11,9 +11,9 @@ function ProjectCard(props) {
     const link = props.image;
 
     return(
-        <div key={props.title} className="project-card">
+        <div key={props.title} className="p-4">
             <Link to={`/projects/${props.title}`}>
-                <img className="project-image" src={`${images[link]}`} alt={`${props.title}`} />
+                <img className="rounded" src={`${images[link]}`} alt={`${props.title}`} />
             </Link>
         </div>
     )

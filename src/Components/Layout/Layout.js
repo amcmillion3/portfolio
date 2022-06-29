@@ -61,7 +61,7 @@ function Layout(props) {
                         <h2 className="text-4xl text-tokyo-cyan">Projects</h2>
                         <Projects data={ props.data }/>
                     </section>
-                    <section className="mt-20 ml-10 mr-10" id="contact">
+                    <section className="mt-20 ml-10 mr-10 mb-10" id="contact">
                         <h2 className="text-4xl text-tokyo-cyan">Contact Me</h2>
                         <form action="https://formsubmit.co/0c75666bfff8977270a32b804824f26f" method="POST">
                             <ul className="mt-10">
