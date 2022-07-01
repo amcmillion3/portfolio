@@ -15,7 +15,7 @@ function Projects(props) {
     };
 
     return(
-        <div className="flex flex-col mt-10 lg:grid lg:grid-cols-3 lg:grid-rows-2">
+        <div className="flex flex-col mt-10 items-center lg:grid lg:grid-cols-3 lg:grid-rows-2">
             {renderProjectsList()}
         </div>
     )

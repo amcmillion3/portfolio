@@ -82,13 +82,13 @@ function Layout(props) {
                 <div className="mt-10 lg:mt-[50%] lg:ml-4">
                     <ul className="flex justify-center lg:sticky lg:top-[50%] lg:flex-col">
                         <li className="m-2"><a href="https://github.com/amcmillion3">
-                            <img align="left" alt="GitHub" width="60em" src="https://img.icons8.com/glyph-neue/344/ffffff/github.png" /></a></li>
+                            <img className="hover:scale-110" align="left" alt="GitHub" width="60em" src="https://img.icons8.com/glyph-neue/344/ffffff/github.png" /></a></li>
                         <li className="m-2"><a href="https://twitter.com/McMillionMedia">
-                            <img align="left" alt="Twitter" width="50em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" /></a></li>
+                            <img className="hover:scale-110" align="left" alt="Twitter" width="50em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" /></a></li>
                         <li className="m-2"><a href="https://www.linkedin.com/in/andrew-mcmillion-120384233/">
-                            <img align="left" alt="Linkedin" width="50em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" /></a></li>
+                            <img className="hover:scale-110" align="left" alt="Linkedin" width="50em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" /></a></li>
                         <li className="m-2"><a href="https://www.youtube.com/channel/UC-xuUJCVG911tpxaGWSYONQ">
-                            <img align="left" alt="Youtube" width="50em" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/youtube-128.png" /></a></li>
+                            <img className="hover:scale-110" align="left" alt="Youtube" width="50em" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/youtube-128.png" /></a></li>
                     </ul>
                 </div>
             </div>

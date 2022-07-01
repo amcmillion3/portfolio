@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Nav() {
     
@@ -7,7 +8,9 @@ function Nav() {
 
     return (
         <div className="flex justify-between lg:m-4 lg:text-xl text-tokyo-cyan">
-          <div className="text-5xl m-4">A</div>
+          <Link to={`/`}>
+            <div className="text-5xl m-4">A</div>
+          </Link>
           <nav>
             <section className="flex mr-8 mt-6 lg:hidden">
               <div

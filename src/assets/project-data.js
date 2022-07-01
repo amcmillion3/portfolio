@@ -26,7 +26,7 @@ export const projectData = [
         learning: "This was a project I built with React to become comfortable with Functional Components and Hooks. How state functions and how data is shared in a React app was confusing at first but once I read through the official docs and played with the sample code in the React docs I figured it out and made it work.",
         live: "https://naruto-memory-card-game.netlify.app/",
         github: "https://github.com/amcmillion3/memory-card-game",
-        image: "2",
+        image: "3",
         video: "project demonstration video"
     },
     {
@@ -36,7 +36,7 @@ export const projectData = [
         learning: "When I first started reading about what an API is I instantly thought of building a Pokédex. A few of the APIs I looked at had very simple data. I was intrigued by having so much data about every Pokémon and what I could do with all the data.",
         live: "link to the live project",
         github: "Github Link",
-        image: "project image",
+        image: "4",
         video: "project demonstration video"
     },
     {
@@ -46,7 +46,7 @@ export const projectData = [
         learning: "I built this because I love movies and I wanted a way to track all the movies I have seen from the list. This is a CRUD app and was built for experience with building a full stack application. ",
         live: "link to the live project",
         github: "Github Link",
-        image: "project image",
+        image: "2",
         video: "project demonstration video"
     }
 ]

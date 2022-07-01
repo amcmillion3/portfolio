@@ -22,7 +22,9 @@ export default function ProjectDetail(props) {
 
     return (
         <div>
-            <div className="text-5xl m-4 text-tokyo-lavender">A</div>
+            <Link to={`/`}>
+                <div className="text-5xl m-4 text-tokyo-cyan">A</div>
+            </Link>
             {renderProjectDetail()}
             <div>
             <Link className="text-tokyo-lavender" to={`/`}>
