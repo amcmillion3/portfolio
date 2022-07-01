@@ -2,8 +2,8 @@ export const projectData = [
     {
         title: "Hyrule Castle Market",
         subtitle: "An e-commerce store",
-        description: "Hyrule Castle Market is an e-commerce store selling items from the classic Legend of Zelda Ocarina of Time.",
-        learning: "This project was built so I could learn React Router. React Router is used to set up all the routes for the different rendered pages of the site. I endured several pain points not related to React Router while building the project. One particular difficulty was with how props are passed between nested children. Props are passed several children deep in the component tree. While this is completely functional it was difficult to manage mentally at first. To solve this issue I drew a diagram of a tree with each node representing a component and inside that component node I wrote down all the data that it needed to contain in order to function.",
+        description: "Hyrule Castle Market is an e-commerce store selling items from the classic video-game, 'Legend of Zelda: Ocarina of Time.'",
+        learning: "This project was built so I could learn React Router. React Router is used to set up all the routes for the different rendered pages of the site. I endured several pain points not related to React Router while building the project. One particular difficulty was with how props are passed between nested children. Props are passed several children deep in the component tree. While this is completely functional, it was difficult to manage mentally at first. To solve this issue, I drew a diagram of a tree with each node representing a component and inside that component node I wrote down all the data that it needed to contain in order to function.",
         live: "https://hyrule-castle-market.netlify.app/",
         github: "https://github.com/amcmillion3/hyrule-castle-market",
         image: "0",
@@ -47,6 +47,16 @@ export const projectData = [
         live: "link to the live project",
         github: "Github Link",
         image: "2",
+        video: "project demonstration video"
+    },
+    {
+        title: "Personal Portfolio",
+        subtitle: "An app for Cinephiles.",
+        description: "A personal portfolio to showcase my web development skillset, and to display a handful of projects for which I am most proud.",
+        learning: "I built this because I love movies and I wanted a way to track all the movies I have seen from the list. This is a CRUD app and was built for experience with building a full stack application. ",
+        live: "link to the live project",
+        github: "https://github.com/amcmillion3/portfolio",
+        image: "5",
         video: "project demonstration video"
     }
 ]
