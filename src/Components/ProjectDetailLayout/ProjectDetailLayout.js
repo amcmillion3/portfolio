@@ -16,8 +16,8 @@ export default function ProjectDetailLayout(props) {
                         <li className="mt-10">{props.learning}</li>
                     </ul>
                     <div className="flex justify-around mt-10 w-full">
-                        <a href={props.live} className="border-2 rounded border-tokyo-lavender p-2">Live Demo</a>
-                        <a href={props.github} className="border-2 rounded border-tokyo-lavender p-2">Github</a>
+                        <a href={props.live} className="border-2 rounded border-tokyo-lavender p-2 hover:scale-110 hover:bg-tokyo-cyan hover:bg-opacity-10 hover:delay-100">Live Demo</a>
+                        <a href={props.github} className="border-2 rounded border-tokyo-lavender p-2 hover:scale-110 hover:bg-tokyo-cyan hover:bg-opacity-10 hover:delay-100">Github</a>
                     </div>
                 </div>
             </div>

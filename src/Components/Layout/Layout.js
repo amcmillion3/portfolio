@@ -75,7 +75,7 @@ function Layout(props) {
                                     <textarea className="rounded p-2 mt-2 w-full h-48 text-[#040324] text-lg font-black" name="message" placeholder="Message" required ></textarea>
                                 </li>
                             </ul>
-                            <button className="text-xl text-tokyo-cyan border-2 rounded border-tokyo-cyan p-2 mt-2" type="submit">Submit</button>
+                            <button className="text-xl text-tokyo-cyan border-2 rounded border-tokyo-cyan p-2 mt-2 hover:scale-110 hover:bg-tokyo-cyan hover:bg-opacity-10 hover:delay-100" type="submit">Submit</button>
                         </form>
                     </section>
                 </div>
