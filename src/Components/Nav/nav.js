@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
 function importAll(r) {
   return r.keys().map(r);
@@ -13,12 +12,12 @@ function Nav() {
     const [isNavOpen, setIsNavOpen] = useState(false);
 
     return (
-        <div className="flex justify-between lg:m-4 lg:text-xl text-tokyo-cyan">
-          <Link to={`/`}>
-            <div className="text-5xl m-4">
+        <div className="flex justify-between lg:m-4 lg:text-xl lg:sticky lg:top-0 lg:bg-[#1a1b26] lg:border-b-[0.25px] lg:border-tokyo-lavender text-tokyo-cyan">
+          <div className="m-4">
+            <a href="#home">
               <img src={`${icons[0]}`} alt="personal-icon" width={70}></img>
-            </div>
-          </Link>
+            </a>
+          </div>
           <nav>
             <section className="flex mr-8 mt-6 lg:hidden">
               <div

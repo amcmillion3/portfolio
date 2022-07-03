@@ -2,6 +2,12 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import ProjectDetailLayout from "../ProjectDetailLayout";
 
+function importAll(r) {
+    return r.keys().map(r);
+  }
+  
+  const icons = importAll(require.context('../../assets/icons', false, /\.(png|jpe?g|svg)$/));
+
 export default function ProjectDetail(props) {
     const { id } = useParams();
 
@@ -23,7 +29,9 @@ export default function ProjectDetail(props) {
     return (
         <div>
             <Link to={`/`}>
-                <div className="text-5xl m-4 text-tokyo-cyan">A</div>
+                <div className="m-4 text-tokyo-cyan">
+                    <img src={`${icons[0]}`} alt="personal-icon" width={70}></img>
+                </div>
             </Link>
             {renderProjectDetail()}
             <div>

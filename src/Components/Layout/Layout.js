@@ -5,7 +5,7 @@ import Nav from "../Nav";
 function Layout(props) {
 
     return (
-        <div>
+        <div id="home">
             <Nav/>
             <div className="flex flex-col lg:justify-between lg:flex-row-reverse text-tokyo-lavender">
                 <div className="lg:w-1/2 lg:mr-[25%]">

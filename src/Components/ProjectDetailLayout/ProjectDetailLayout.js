@@ -1,6 +1,14 @@
 import React from "react";
 
+function importAll(r) {
+    return r.keys().map(r);
+}
+
+const gifs = importAll(require.context('../../assets/gifs', false, /\.(png|jpe?g|svg|gif)$/));
+
 export default function ProjectDetailLayout(props) {
+
+    const link = props.video;
     return(
         <div className="m-10 text-tokyo-lavender" key={props.title}>
             <header>
@@ -8,7 +16,7 @@ export default function ProjectDetailLayout(props) {
             </header>
             <div className="flex flex-col lg:flex-row lg:mt-10">
                 <div className="mt-10 lg:w-1/2">
-                    <img src={`${props.video}`} alt={`video of ${props.title}`} />
+                    <img src={`${gifs[link]}`} alt={`video of ${props.title}`} />
                 </div>
                 <div className="text-2xl lg:w-1/2 lg:pl-10 lg:pr-64">
                     <ul>

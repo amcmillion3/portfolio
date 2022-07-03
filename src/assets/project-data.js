@@ -7,7 +7,7 @@ export const projectData = [
         live: "https://hyrule-castle-market.netlify.app/",
         github: "https://github.com/amcmillion3/hyrule-castle-market",
         image: "0",
-        video: "project demonstration video"
+        video: "0"
     },
     {
         title: "La Casa Catracha",
@@ -17,7 +17,7 @@ export const projectData = [
         live: "https://la-casa-catracha.netlify.app/",
         github: "https://github.com/amcmillion3/la-casa-catracha",
         image: "1",
-        video: "project demonstration video"
+        video: "1"
     },
     {
         title: "Naruto Game",
@@ -27,7 +27,7 @@ export const projectData = [
         live: "https://naruto-memory-card-game.netlify.app/",
         github: "https://github.com/amcmillion3/memory-card-game",
         image: "3",
-        video: "project demonstration video"
+        video: "3"
     },
     {
         title: "Pokédex",
@@ -47,11 +47,11 @@ export const projectData = [
         live: "link to the live project",
         github: "Github Link",
         image: "2",
-        video: "project demonstration video"
+        video: "2"
     },
     {
         title: "Personal Portfolio",
-        subtitle: "An app for Cinephiles.",
+        subtitle: "A collection of my personal projects",
         description: "A personal portfolio to showcase my web development skillset, and to display a handful of projects for which I am most proud.",
         learning: "I built this because I love movies and I wanted a way to track all the movies I have seen from the list. This is a CRUD app and was built for experience with building a full stack application. ",
         live: "link to the live project",
