@@ -33,9 +33,9 @@ export const projectData = [
         title: "Pokédex",
         subtitle: "A device to provide Pokémon information.",
         description: "An application to provide information about the various species of Pokémon from the various Pokémon video games and animes.",
-        learning: "When I first started reading about what an API is I instantly thought of building a Pokédex. A few of the APIs I looked at had very simple data. I was intrigued by having so much data about every Pokémon and what I could do with all the data. I used axios to fetch the data from the API. It handled things much smoother than the built in Javascript methods for fetching data, specifically in it's error handling. This project utilizes React and Tailwind for managing and styling the UI.",
-        live: "link to the live project",
-        github: "Github Link",
+        learning: "When I first started reading about what an API is I instantly thought of building a Pokédex. A few of the APIs I looked at had very simple data. I was intrigued by having so much data about every Pokémon and what I could do with all the data. I had issues getting the data fetching to work at first mostly because the useEffect React Hook is calling twice upon mounting and at first it was creating an empty array. I solved the problem by setting an initial empty array. The other main pain point I had was building the search function. It was straight forward to get it to search but I was stuck for a little bit with how to get the other Pokémon to return when letters were deleted from the search input. I fixed this by using state to create an array of all the Pokémon when the data is fetched and never altering the array so I always have all the data to reset the searched data. This project utilizes React and Tailwind for managing and styling the UI.",
+        live: "https://mcmillionpokedex.netlify.app/",
+        github: "https://github.com/amcmillion3/pokedex",
         image: "4",
         video: "4"
     },
