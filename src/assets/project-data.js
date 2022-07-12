@@ -37,7 +37,7 @@ export const projectData = [
         live: "link to the live project",
         github: "Github Link",
         image: "4",
-        video: "project demonstration video"
+        video: "4"
     },
     {
         title: "Movie App",
@@ -57,6 +57,6 @@ export const projectData = [
         live: "link to the live project",
         github: "https://github.com/amcmillion3/portfolio",
         image: "5",
-        video: "4"
+        video: "5"
     }
 ]
